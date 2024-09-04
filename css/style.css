@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*==============================================================
+	Fonts
+	==============================================================*/
+
+/*==============================================================
+	Bootstrap Hack
+	==============================================================*/
+
+.form-control::-webkit-input-placeholder {
+  text-transform: capitalize;
+  color: #8D8D8D;
+  opacity: 1;
+}
+
+.form-control:-moz-placeholder {
+  text-transform: capitalize;
+  color: #8D8D8D;
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+  text-transform: capitalize;
+  color: #8D8D8D;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  text-transform: capitalize;
+  color: #8D8D8D;
+  opacity: 1;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus,
+.nav>li.active>a,
+.nav>li.active>a:focus {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/*==============================================================
+Chrome Hack
+==============================================================*/
+textarea,
+input[type="text"] {
+  -webkit-appearance: none;
+}
+
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="file"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+h1, .h1 {
+  font-family: Poppins;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #ffffff;
+  margin: 0;
+}
+h2, .h2 {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #ffffff;
+  margin: 0;
+}
+/*==============================================================
+	Custom Style
+	==============================================================*/
+html {
+  scroll-behavior: auto !important;
+  scrollbar-color: #565656 #bfbfbf;
+  scrollbar-width: thin;
+}
+
+body {
+  scrollbar-color: #565656 #bfbfbf;
+  scrollbar-width: thin;
+}
+
+* {
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #565656;
+  min-height: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background: #bfbfbf;
+}
+
+.login-section-wrap {
+  background-color: #FFFEFC;
+}
+.login-img {
+  position: relative;
+}
+.login-img img {
+  object-fit: cover;
+  display: block;
+  padding-top: 42px;
+}
+.img-content {
+  position: absolute;
+  top: 85%;
+  left: 8%;
+}
+.section-title {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.login-area {
+  display: flex;
+  gap: 111px;
+  justify-content: center;
+  align-items: center;
+}
+.section-links {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 52px;
+}
+.form-check-input {
+  border: 1px solid #000000;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+.section-links-item {
+  border-radius: 33px;
+  padding: 18px;
+  background-color: rgba(73, 187, 189, 0.6);
+}
+.form-label {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  padding-bottom: 12px;
+}
+.login-content form {
+  position: relative;
+}
+.login-content p {
+  padding-bottom: 42px;
+}
+
+.link-active {
+  color: #FFFFFF;
+  background-color: #49BBBD;
+  padding: 8px 52px;
+  border-radius: 33px;
+}
+
+.link-active.link {
+  background-color: transparent;
+}
+
+.form-control {
+  height: 54px;
+  border-radius: 40px;
+  border: 1px solid #49BBBD;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 23px;
+  padding: 0 10px 0 31px;
+}
+
+.login-content .cta-btn {
+  text-align: end;
+  padding-top: 62px;
+}
+
+.cta-btn input {
+  border-radius: 36px;
+  background-color: #49BBBD;
+  border: none;
+  color: #ffffff;
+  padding: 13px 95px;
+}
+
+.form-group {
+  position: relative;
+  padding-bottom: 30px;
+}
+.form-group-img {
+  position: absolute;
+  top: 47%;
+  right: 4%;
+}
+
+.form-group.form-check {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+}
+.form-check {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.form-check-label, .form-group a {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #000000;
+}
